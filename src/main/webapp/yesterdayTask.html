@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="./layui/css/layui.css">
+<script src="./layui/layui.js"></script>
+</head>
+<body>
+  <div ><font style="font-size: 30px;color: green;">未完成任务</font></div>
+    <!-- 内容主体区域 -->
+
+    <div style="padding: 15px;">
+<table class="layui-table" lay-data="{height:315, url:'/demo/table/user/', page:true, id:'test'}" lay-filter="test">
+ <table class="layui-table">
+  <colgroup>
+    <col width="150">
+    <col width="200">
+    <col>
+  </colgroup>
+  <thead>
+    <tr style="color: red">
+      <th>昵称</th>
+      <th>加入时间</th>
+      <th>签名</th>
+    </tr> 
+  </thead>
+  <tbody>
+    <tr style="background-color: #87CEEB;">
+      <td>贤心</td>
+      <td>2016-11-29</td>
+      <td>人生就像是一场修行</td>
+    </tr>
+    <tr style="background-color:#FF69B4">
+      <td>许闲心</td>
+      <td>2016-11-28</td>
+      <td>于千万人之中遇见你所遇见的人，于千万年之中，时间的无涯的荒野里…</td>
+    </tr>
+  </tbody>
+</table>
+</table>
+</div>
+</body>
+</html>
